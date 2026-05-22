@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/MainMenu.unity
+    guid: fdb5bf2bfcfeea141b963881c83bd2ef
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: 26793a9f66d71d140ac3a5665dd115a4
   - enabled: 1
     path: Assets/DTT/Minigame Base/Assets/Scenes/DTT Level Select.unity
     guid: 12b509971f91314419189b6ccc01464d
