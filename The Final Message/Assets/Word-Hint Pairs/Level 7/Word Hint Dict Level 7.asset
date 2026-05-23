@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2e907acc0baeeb45a54a0d1fd6ecb45, type: 3}
+  m_Name: Word Hint Dict Level 7
+  m_EditorClassIdentifier: DTT.WordConnect.Runtime::DTT.WordConnect.WordHintDictionary
+  <DictionaryName>k__BackingField: Word Hint Dict Level 7
+  <WordHintPairs>k__BackingField:
+  - {fileID: 11400000, guid: 4adf04a80ae3fc5428ce6ddee92451d5, type: 2}
+  - {fileID: 11400000, guid: bdc652b9016a960429fcb1e7599211f2, type: 2}
+  - {fileID: 11400000, guid: eac169e4f5d6c694bbd30c91e63d4297, type: 2}
+  - {fileID: 11400000, guid: 8ff5bfefbe8ef2148b489dab8e03f8b4, type: 2}
+  - {fileID: 11400000, guid: 41e45bc60fc023a4399a4c77d58fcae2, type: 2}
+  - {fileID: 11400000, guid: 1e4b4e51d0dbff640a686e79903111b2, type: 2}
+  - {fileID: 11400000, guid: 1bbfa4923c820b748a2903043f3226dc, type: 2}
+  - {fileID: 11400000, guid: 63b347f5b818d6747abc24f528168c6e, type: 2}
+  - {fileID: 11400000, guid: 606f41856f49dd343ab39fc971c88389, type: 2}
