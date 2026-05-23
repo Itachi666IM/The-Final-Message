@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2735380a136e86c488bcbfbc72465516, type: 3}
+  m_Name: Color Theme
+  m_EditorClassIdentifier: DTT.WordConnect.Runtime::DTT.WordConnect.ColorTheme
+  <BackgroundColor>k__BackingField: {r: 0.41282305, g: 0.94716984, b: 0.41282305, a: 0}
+  <BackgroundGradientColor>k__BackingField: {r: 0.28180793, g: 0.5999999, b: 0.21622638, a: 0}
+  <BackgroundElementsColor>k__BackingField: {r: 0.6924528, g: 1, b: 0.73143774, a: 0}
+  <HighlightColor>k__BackingField: {r: 1, g: 0.54905653, b: 0.84777063, a: 0}
+  <LightHighlightColor>k__BackingField: {r: 0.81886786, g: 0.3321822, b: 0.78672826, a: 0}
+  <LetterInputLetterColor>k__BackingField: {r: 0.554717, g: 0.05756491, b: 0.5262598, a: 0}
+  <HintButtonColor>k__BackingField: {r: 0.44810957, g: 0.6263261, b: 0.97735846, a: 0}
+  <LightHintButtonColor>k__BackingField: {r: 0.19459786, g: 0.095884636, b: 0.7584905, a: 0}
+  <FoundTileColor>k__BackingField: {r: 1, g: 0.3754716, b: 0.3754716, a: 0}
+  <FoundTileLetterColor>k__BackingField: {r: 1, g: 1, b: 1, a: 0}
+  <HintedTileColor>k__BackingField: {r: 1, g: 0.3764706, b: 0.3764706, a: 0}
+  <HintedTileLetterColor>k__BackingField: {r: 1, g: 1, b: 1, a: 0}
+  <RegularTileColor>k__BackingField: {r: 1, g: 1, b: 1, a: 0}

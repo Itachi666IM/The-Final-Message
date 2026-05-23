@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d991669cd30d37c4c8e2ab4a95363015, type: 3}
+  m_Name: Word Connect Level 1
+  m_EditorClassIdentifier: DTT.WordConnect.Runtime::DTT.WordConnect.WordConnectConfigurationData
+  _gameName: Word Connect Level 1
+  _colorTheme: {fileID: 11400000, guid: 2c9f79e8f39b7924e909cf1f4f6a2089, type: 2}
+  _wordHintsAvailable: 0
+  _letterHintsAvailable: 0
+  _descriptionHintsAvailable: 2
+  _dictionaryAsset: {fileID: 11400000, guid: e2be4dfff4174e84c8a8171ca36fcb8c, type: 2}
+  _completionPointTimeCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _expectedTimeCompletion: 0
+  _maxBonusTimeScore: 500
+  _scorePerWordFound: 100
+  _streakScoreIncrement: 20
+  _prioritizeLongestWordHint: 1
+  _wordVectors: []
+  _gridWidth: 0
+  _flattenedLetterLayout: []
