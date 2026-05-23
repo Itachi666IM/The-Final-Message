@@ -13,6 +13,7 @@ public class MenuManager : MonoBehaviour
 
     [SerializeField] private AudioClip clickSound;
     [SerializeField] private AudioClip hoverSound;
+    [SerializeField] private Animator envelopeAnimator;
     private void Start()
     {
 
@@ -21,7 +22,12 @@ public class MenuManager : MonoBehaviour
         playButton.onClick.AddListener(() =>
         {
             SFXPlayer.Instance.PlaySFX(clickSound);
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            envelopeAnimator.SetTrigger("play");
+            playButton.gameObject.SetActive(false);
+            settingsButton.gameObject.SetActive(false);
+            exitButton.gameObject.SetActive(false);
+            Invoke("PlayStoryScene", 2f);
+            
         });
 
         settingsButton.onClick.AddListener(() =>
@@ -49,5 +55,10 @@ public class MenuManager : MonoBehaviour
     public void PlayHoverSound()
     {
         SFXPlayer.Instance.PlaySFX(hoverSound);
+    }
+
+    private void PlayStoryScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
