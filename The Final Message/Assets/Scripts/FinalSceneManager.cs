@@ -1,6 +1,8 @@
-using UnityEngine;
 using System.Collections;
-using UnityEngine.SceneManagement;
+using UnityEngine;
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 public class FinalSceneManager : MonoBehaviour
 {
     [Header("Top Row")]
@@ -72,7 +74,11 @@ public class FinalSceneManager : MonoBehaviour
         teardrop2.SetActive(true);
 
         yield return new WaitForSeconds(2f);
-        SceneManager.LoadScene("MainMenu");
+#if UNITY_EDITOR
+        EditorApplication.ExitPlaymode();
+#else
+            Application.Quit();
+#endif
 
     }
 }
