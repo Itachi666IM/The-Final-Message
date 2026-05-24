@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2e907acc0baeeb45a54a0d1fd6ecb45, type: 3}
+  m_Name: Word Hint Dict Level 10
+  m_EditorClassIdentifier: DTT.WordConnect.Runtime::DTT.WordConnect.WordHintDictionary
+  <DictionaryName>k__BackingField: Word Hint Dict Level 10
+  <WordHintPairs>k__BackingField:
+  - {fileID: 11400000, guid: 8b7a705a82007c34daa5ea0bce6a641e, type: 2}
+  - {fileID: 11400000, guid: 834f3aca5a29f9d499c9d192f9d63e17, type: 2}
+  - {fileID: 11400000, guid: 580e1807ffbc2b8448baf50f51f1744f, type: 2}
+  - {fileID: 11400000, guid: c3f277b40402ba04cb841e7041bcb38d, type: 2}
+  - {fileID: 11400000, guid: 65232e9a37cc0f743906a983f89328cd, type: 2}
+  - {fileID: 11400000, guid: 6c1c95313a1861347a757824d62f1a32, type: 2}
+  - {fileID: 11400000, guid: 5a01223ffcebd414b984f96a9887d3de, type: 2}
+  - {fileID: 11400000, guid: 05f9be9c6cb4f1945a5dd7c10a747811, type: 2}
+  - {fileID: 11400000, guid: fe259ddd646976a41b5814d1611c2086, type: 2}
+  - {fileID: 11400000, guid: d0bf2a88e65c52049a47085daf2b48f2, type: 2}
+  - {fileID: 11400000, guid: 68a8f3467506845449bd5e35e4eb048c, type: 2}
+  - {fileID: 11400000, guid: 7b79e76fee18f074db84dafd8f482a91, type: 2}
+  - {fileID: 11400000, guid: 1fb167a7dac7c5943a2e20b38f91207f, type: 2}
+  - {fileID: 11400000, guid: 6a732e4687811ca4c82c6ad81e5fa6df, type: 2}
+  - {fileID: 11400000, guid: 992fffdeee194f24da209479ce75aba3, type: 2}
