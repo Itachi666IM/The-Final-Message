@@ -1,0 +1,439 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d991669cd30d37c4c8e2ab4a95363015, type: 3}
+  m_Name: Level 14
+  m_EditorClassIdentifier: DTT.WordConnect.Runtime::DTT.WordConnect.WordConnectConfigurationData
+  _gameName: Level 14
+  _colorTheme: {fileID: 11400000, guid: c0e18d198b1b16340a16d18f3b6e7546, type: 2}
+  _wordHintsAvailable: 5
+  _letterHintsAvailable: 10
+  _descriptionHintsAvailable: 9
+  _dictionaryAsset: {fileID: 11400000, guid: bc4a495b32256e242ad1b14ba87a53f6, type: 2}
+  _completionPointTimeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -0.4961636
+      outSlope: -0.4961636
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.99334717
+      value: 0.5071373
+      inSlope: -0.4961636
+      outSlope: -0.4961636
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _expectedTimeCompletion: 400
+  _maxBonusTimeScore: 500
+  _scorePerWordFound: 100
+  _streakScoreIncrement: 20
+  _prioritizeLongestWordHint: 1
+  _wordVectors:
+  - <OriginPosition>k__BackingField: {x: 0, y: 0}
+    <IsDown>k__BackingField: 1
+    <OccupiedPositions>k__BackingField:
+    - {x: 0, y: 0}
+    - {x: 0, y: -1}
+    - {x: 0, y: -2}
+    - {x: 0, y: -3}
+    - {x: 0, y: -4}
+    <InfluencedPositions>k__BackingField:
+    - {x: -1, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: -1, y: -1}
+    - {x: 1, y: -1}
+    - {x: -1, y: -2}
+    - {x: 1, y: -2}
+    - {x: -1, y: -3}
+    - {x: 1, y: -3}
+    - {x: -1, y: -4}
+    - {x: 1, y: -4}
+    - {x: 0, y: -5}
+    <WordHintPair>k__BackingField: {fileID: 11400000, guid: e56ddeeaeea3cf5408bc4ea652bf3e73, type: 2}
+  - <OriginPosition>k__BackingField: {x: -1, y: -2}
+    <IsDown>k__BackingField: 0
+    <OccupiedPositions>k__BackingField:
+    - {x: -1, y: -2}
+    - {x: 0, y: -2}
+    - {x: 1, y: -2}
+    - {x: 2, y: -2}
+    - {x: 3, y: -2}
+    <InfluencedPositions>k__BackingField:
+    - {x: -1, y: -1}
+    - {x: -1, y: -3}
+    - {x: -2, y: -2}
+    - {x: 0, y: -1}
+    - {x: 0, y: -3}
+    - {x: 1, y: -1}
+    - {x: 1, y: -3}
+    - {x: 2, y: -1}
+    - {x: 2, y: -3}
+    - {x: 3, y: -1}
+    - {x: 3, y: -3}
+    - {x: 4, y: -2}
+    <WordHintPair>k__BackingField: {fileID: 11400000, guid: 7f7beea8713b698499346509d3fea6bc, type: 2}
+  - <OriginPosition>k__BackingField: {x: 0, y: 0}
+    <IsDown>k__BackingField: 0
+    <OccupiedPositions>k__BackingField:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 2, y: 0}
+    <InfluencedPositions>k__BackingField:
+    - {x: 0, y: 1}
+    - {x: 0, y: -1}
+    - {x: -1, y: 0}
+    - {x: 1, y: 1}
+    - {x: 1, y: -1}
+    - {x: 2, y: 1}
+    - {x: 2, y: -1}
+    - {x: 3, y: 0}
+    <WordHintPair>k__BackingField: {fileID: 11400000, guid: d6fc5a93aa7fce44293ffd58203ad32c, type: 2}
+  - <OriginPosition>k__BackingField: {x: 0, y: -4}
+    <IsDown>k__BackingField: 0
+    <OccupiedPositions>k__BackingField:
+    - {x: 0, y: -4}
+    - {x: 1, y: -4}
+    - {x: 2, y: -4}
+    - {x: 3, y: -4}
+    - {x: 4, y: -4}
+    - {x: 5, y: -4}
+    - {x: 6, y: -4}
+    - {x: 7, y: -4}
+    - {x: 8, y: -4}
+    <InfluencedPositions>k__BackingField:
+    - {x: 0, y: -3}
+    - {x: 0, y: -5}
+    - {x: -1, y: -4}
+    - {x: 1, y: -3}
+    - {x: 1, y: -5}
+    - {x: 2, y: -3}
+    - {x: 2, y: -5}
+    - {x: 3, y: -3}
+    - {x: 3, y: -5}
+    - {x: 4, y: -3}
+    - {x: 4, y: -5}
+    - {x: 5, y: -3}
+    - {x: 5, y: -5}
+    - {x: 6, y: -3}
+    - {x: 6, y: -5}
+    - {x: 7, y: -3}
+    - {x: 7, y: -5}
+    - {x: 8, y: -3}
+    - {x: 8, y: -5}
+    - {x: 9, y: -4}
+    <WordHintPair>k__BackingField: {fileID: 11400000, guid: 8e343a076157c684fb0c92a0d57c3c72, type: 2}
+  - <OriginPosition>k__BackingField: {x: 2, y: -4}
+    <IsDown>k__BackingField: 1
+    <OccupiedPositions>k__BackingField:
+    - {x: 2, y: -4}
+    - {x: 2, y: -5}
+    - {x: 2, y: -6}
+    - {x: 2, y: -7}
+    <InfluencedPositions>k__BackingField:
+    - {x: 1, y: -4}
+    - {x: 3, y: -4}
+    - {x: 2, y: -3}
+    - {x: 1, y: -5}
+    - {x: 3, y: -5}
+    - {x: 1, y: -6}
+    - {x: 3, y: -6}
+    - {x: 1, y: -7}
+    - {x: 3, y: -7}
+    - {x: 2, y: -8}
+    <WordHintPair>k__BackingField: {fileID: 11400000, guid: bf72fa2921ed4c941af3eba47ad390ed, type: 2}
+  - <OriginPosition>k__BackingField: {x: 8, y: -4}
+    <IsDown>k__BackingField: 1
+    <OccupiedPositions>k__BackingField:
+    - {x: 8, y: -4}
+    - {x: 8, y: -5}
+    - {x: 8, y: -6}
+    <InfluencedPositions>k__BackingField:
+    - {x: 7, y: -4}
+    - {x: 9, y: -4}
+    - {x: 8, y: -3}
+    - {x: 7, y: -5}
+    - {x: 9, y: -5}
+    - {x: 7, y: -6}
+    - {x: 9, y: -6}
+    - {x: 8, y: -7}
+    <WordHintPair>k__BackingField: {fileID: 11400000, guid: 9681b80cdbb0a2941913e20f70ecd3d9, type: 2}
+  - <OriginPosition>k__BackingField: {x: 4, y: -4}
+    <IsDown>k__BackingField: 1
+    <OccupiedPositions>k__BackingField:
+    - {x: 4, y: -4}
+    - {x: 4, y: -5}
+    - {x: 4, y: -6}
+    <InfluencedPositions>k__BackingField:
+    - {x: 3, y: -4}
+    - {x: 5, y: -4}
+    - {x: 4, y: -3}
+    - {x: 3, y: -5}
+    - {x: 5, y: -5}
+    - {x: 3, y: -6}
+    - {x: 5, y: -6}
+    - {x: 4, y: -7}
+    <WordHintPair>k__BackingField: {fileID: 11400000, guid: 41ea436d895a54d4b89a0515a0473d82, type: 2}
+  - <OriginPosition>k__BackingField: {x: -1, y: -6}
+    <IsDown>k__BackingField: 0
+    <OccupiedPositions>k__BackingField:
+    - {x: -1, y: -6}
+    - {x: 0, y: -6}
+    - {x: 1, y: -6}
+    - {x: 2, y: -6}
+    <InfluencedPositions>k__BackingField:
+    - {x: -1, y: -5}
+    - {x: -1, y: -7}
+    - {x: -2, y: -6}
+    - {x: 0, y: -5}
+    - {x: 0, y: -7}
+    - {x: 1, y: -5}
+    - {x: 1, y: -7}
+    - {x: 2, y: -5}
+    - {x: 2, y: -7}
+    - {x: 3, y: -6}
+    <WordHintPair>k__BackingField: {fileID: 11400000, guid: 29ef4b193fe94b449832065c1e859a77, type: 2}
+  - <OriginPosition>k__BackingField: {x: 6, y: -4}
+    <IsDown>k__BackingField: 1
+    <OccupiedPositions>k__BackingField:
+    - {x: 6, y: -4}
+    - {x: 6, y: -5}
+    - {x: 6, y: -6}
+    - {x: 6, y: -7}
+    - {x: 6, y: -8}
+    <InfluencedPositions>k__BackingField:
+    - {x: 5, y: -4}
+    - {x: 7, y: -4}
+    - {x: 6, y: -3}
+    - {x: 5, y: -5}
+    - {x: 7, y: -5}
+    - {x: 5, y: -6}
+    - {x: 7, y: -6}
+    - {x: 5, y: -7}
+    - {x: 7, y: -7}
+    - {x: 5, y: -8}
+    - {x: 7, y: -8}
+    - {x: 6, y: -9}
+    <WordHintPair>k__BackingField: {fileID: 11400000, guid: e4b933309500c4f41857f35fdeb0c566, type: 2}
+  - <OriginPosition>k__BackingField: {x: 6, y: -8}
+    <IsDown>k__BackingField: 0
+    <OccupiedPositions>k__BackingField:
+    - {x: 6, y: -8}
+    - {x: 7, y: -8}
+    - {x: 8, y: -8}
+    - {x: 9, y: -8}
+    - {x: 10, y: -8}
+    <InfluencedPositions>k__BackingField:
+    - {x: 6, y: -7}
+    - {x: 6, y: -9}
+    - {x: 5, y: -8}
+    - {x: 7, y: -7}
+    - {x: 7, y: -9}
+    - {x: 8, y: -7}
+    - {x: 8, y: -9}
+    - {x: 9, y: -7}
+    - {x: 9, y: -9}
+    - {x: 10, y: -7}
+    - {x: 10, y: -9}
+    - {x: 11, y: -8}
+    <WordHintPair>k__BackingField: {fileID: 11400000, guid: 4af825a5e4f1b65489f111cffcc39033, type: 2}
+  - <OriginPosition>k__BackingField: {x: 10, y: -8}
+    <IsDown>k__BackingField: 1
+    <OccupiedPositions>k__BackingField:
+    - {x: 10, y: -8}
+    - {x: 10, y: -9}
+    - {x: 10, y: -10}
+    - {x: 10, y: -11}
+    <InfluencedPositions>k__BackingField:
+    - {x: 9, y: -8}
+    - {x: 11, y: -8}
+    - {x: 10, y: -7}
+    - {x: 9, y: -9}
+    - {x: 11, y: -9}
+    - {x: 9, y: -10}
+    - {x: 11, y: -10}
+    - {x: 9, y: -11}
+    - {x: 11, y: -11}
+    - {x: 10, y: -12}
+    <WordHintPair>k__BackingField: {fileID: 11400000, guid: 5f4ab7fa3f7d18743855719c666030d0, type: 2}
+  - <OriginPosition>k__BackingField: {x: 8, y: -11}
+    <IsDown>k__BackingField: 0
+    <OccupiedPositions>k__BackingField:
+    - {x: 8, y: -11}
+    - {x: 9, y: -11}
+    - {x: 10, y: -11}
+    <InfluencedPositions>k__BackingField:
+    - {x: 8, y: -10}
+    - {x: 8, y: -12}
+    - {x: 7, y: -11}
+    - {x: 9, y: -10}
+    - {x: 9, y: -12}
+    - {x: 10, y: -10}
+    - {x: 10, y: -12}
+    - {x: 11, y: -11}
+    <WordHintPair>k__BackingField: {fileID: 11400000, guid: 4faf81cfa628f274f9797cb98e99bbb3, type: 2}
+  _gridWidth: 12
+  _flattenedLetterLayout:
+  - $
+  - b
+  - u
+  - g
+  - $
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - $
+  - u
+  - $
+  - $
+  - $
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - e
+  - i
+  - g
+  - h
+  - t
+  - $
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - $
+  - l
+  - $
+  - $
+  - $
+  - $
+  - $
+  - $
+  - $
+  - $
+  - 
+  - 
+  - $
+  - t
+  - u
+  - b
+  - e
+  - l
+  - i
+  - g
+  - h
+  - t
+  - $
+  - 
+  - $
+  - $
+  - $
+  - i
+  - $
+  - e
+  - $
+  - u
+  - $
+  - u
+  - $
+  - 
+  - b
+  - e
+  - l
+  - t
+  - $
+  - t
+  - $
+  - i
+  - $
+  - b
+  - $
+  - 
+  - $
+  - $
+  - $
+  - e
+  - $
+  - $
+  - $
+  - l
+  - $
+  - $
+  - $
+  - $
+  - 
+  - 
+  - 
+  - $
+  - 
+  - 
+  - $
+  - t
+  - i
+  - g
+  - h
+  - t
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - $
+  - $
+  - $
+  - $
+  - i
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - $
+  - $
+  - l
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - $
+  - h
+  - u
+  - t
