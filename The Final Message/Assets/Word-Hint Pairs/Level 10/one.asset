@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: one
   m_EditorClassIdentifier: DTT.WordConnect.Runtime::DTT.WordConnect.WordHintPair
   <Word>k__BackingField: one
-  <Hint>k__BackingField: 
+  <Hint>k__BackingField: number between 0 and 2

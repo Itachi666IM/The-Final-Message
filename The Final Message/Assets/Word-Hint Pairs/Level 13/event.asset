@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: event
   m_EditorClassIdentifier: DTT.WordConnect.Runtime::DTT.WordConnect.WordHintPair
   <Word>k__BackingField: event
-  <Hint>k__BackingField: 
+  <Hint>k__BackingField: occurance/happening/occasion

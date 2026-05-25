@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: draw
   m_EditorClassIdentifier: DTT.WordConnect.Runtime::DTT.WordConnect.WordHintPair
   <Word>k__BackingField: draw
-  <Hint>k__BackingField: 
+  <Hint>k__BackingField: win, lose or ....

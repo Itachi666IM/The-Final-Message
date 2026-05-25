@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: guilt
   m_EditorClassIdentifier: DTT.WordConnect.Runtime::DTT.WordConnect.WordHintPair
   <Word>k__BackingField: guilt
-  <Hint>k__BackingField: an emotion
+  <Hint>k__BackingField: an emotion of regret
