@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: DTT.WordConnect.Runtime::DTT.WordConnect.WordConnectConfigurationData
   _gameName: Level 9
   _colorTheme: {fileID: 11400000, guid: c0e18d198b1b16340a16d18f3b6e7546, type: 2}
-  _wordHintsAvailable: 3
+  _wordHintsAvailable: 6
   _letterHintsAvailable: 6
-  _descriptionHintsAvailable: 3
+  _descriptionHintsAvailable: 10
   _dictionaryAsset: {fileID: 11400000, guid: 22222d8d3bc29d84ea0a0d8470fec4ac, type: 2}
   _completionPointTimeCurve:
     serializedVersion: 2

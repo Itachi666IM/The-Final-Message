@@ -69,7 +69,7 @@ namespace DTT.MinigameBase.LevelSelect
         /// </summary>
         protected void Awake()
         {
-            _minigame = FindObjectOfType<TMinigame>();
+            _minigame = FindAnyObjectByType<TMinigame>();
 
             AsyncOperation async = SceneManager.LoadSceneAsync(LevelSelect.SCENE_NAME, LoadSceneMode.Additive);
             
@@ -81,7 +81,7 @@ namespace DTT.MinigameBase.LevelSelect
 
             async.completed += _ =>
             {
-                _levelSelect = FindObjectOfType<LevelSelect>();
+                _levelSelect = FindAnyObjectByType<LevelSelect>();
                 _levelSelectCanvasGroup = _levelSelect.transform.root.gameObject.AddComponent<CanvasGroup>();
                 _levelDatabase.Load();
                 _levelSelect.Populate(_levelDatabase);

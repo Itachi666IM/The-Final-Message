@@ -3,6 +3,7 @@ using DTT.WordConnect.Editor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
+using DTT.WordConnect.Demo;
 
 public class LoadNextLevel : MonoBehaviour
 {
@@ -10,9 +11,10 @@ public class LoadNextLevel : MonoBehaviour
 
     [SerializeField] private string[] messagesFromGrandma;
     [SerializeField] private TMP_Text messageText;
-    [SerializeField] GameObject messageBox;
+    [SerializeField] ResultsUI resultUI;
     int index = 0;
     private string currentMessage;
+    private WordConnectConfigurationData[] allConfigs;
 
     private void Awake()
     {
@@ -21,24 +23,22 @@ public class LoadNextLevel : MonoBehaviour
 
     private void Start()
     {
-        FindCurrentConfigIndex();
-        DisplayGrandmaMessage();
+        allConfigs = levelHandler.allConfigs();
+        WordConnectManager.Instance.Finish += Instance_Finish;
     }
 
-    private void FindCurrentConfigIndex()
+    private void OnDestroy()
     {
-        WordConnectConfigurationData[] allConfigs = levelHandler.allConfigs();
-        for (int i = 0; i < allConfigs.Length; i++)
-        {
-            if (allConfigs[i] == WordConnectManager.Instance.Configuration)
-            {
-                index = i;
-                break;
-            }
-        }
+        WordConnectManager.Instance.Finish -= Instance_Finish;
     }
 
-    private void DisplayGrandmaMessage()
+    private void Instance_Finish(WordConnectResult obj)
+    {
+        SetGrandmaMessage();
+    }
+
+
+    private void SetGrandmaMessage()
     {
         messageText.text = "";
         currentMessage = messagesFromGrandma[index];
@@ -49,12 +49,11 @@ public class LoadNextLevel : MonoBehaviour
     {
         if(index+1<levelHandler.allConfigs().Length)
         {
-            WordConnectConfigurationData[] allConfigs = levelHandler.allConfigs();
+
             WordConnectConfigurationData configToLoad = allConfigs[index+1];
             WordConnectManager.Instance.StartGame(configToLoad);
-            FindCurrentConfigIndex();
-            DisplayGrandmaMessage();
-            messageBox.SetActive(false);
+            index++;
+            resultUI.FadeOutUI();
         }
         else
         {

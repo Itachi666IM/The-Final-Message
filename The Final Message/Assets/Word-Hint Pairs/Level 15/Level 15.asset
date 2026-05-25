@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: DTT.WordConnect.Runtime::DTT.WordConnect.WordConnectConfigurationData
   _gameName: Level 15
   _colorTheme: {fileID: 11400000, guid: 3d0640e78fb7d054abc732574837ca17, type: 2}
-  _wordHintsAvailable: 6
+  _wordHintsAvailable: 8
   _letterHintsAvailable: 10
-  _descriptionHintsAvailable: 6
+  _descriptionHintsAvailable: 12
   _dictionaryAsset: {fileID: 11400000, guid: c2ea2bfb957ae3d4b873e93475e439f0, type: 2}
   _completionPointTimeCurve:
     serializedVersion: 2

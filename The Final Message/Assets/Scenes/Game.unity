@@ -8888,7 +8888,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 300}
+  m_SizeDelta: {x: -40, y: 300}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &359872809
 MonoBehaviour:
@@ -13461,7 +13461,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2cf541084158af4f9df222ac995fa6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _levelDatabase: {fileID: 11400000, guid: 7243df8f6f6c13d4c91609a158150328, type: 2}
+  _levelDatabase: {fileID: 11400000, guid: 2077cfa4d93ead9478a9370bd80ef90d, type: 2}
   _returnToLevelSelectOnFinish: 0
   _wordConnectConfigurations:
   - {fileID: 11400000, guid: 90f1e2d8971795b48a661d07c1d2061e, type: 2}
@@ -13598,7 +13598,7 @@ MonoBehaviour:
   - So
   - Long!
   messageText: {fileID: 359872809}
-  messageBox: {fileID: 1621283467}
+  resultUI: {fileID: 1415541488}
 --- !u!1 &594903226
 GameObject:
   m_ObjectHideFlags: 0

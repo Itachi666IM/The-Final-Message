@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: name
   m_EditorClassIdentifier: DTT.WordConnect.Runtime::DTT.WordConnect.WordHintPair
   <Word>k__BackingField: name
-  <Hint>k__BackingField: 
+  <Hint>k__BackingField: identity
