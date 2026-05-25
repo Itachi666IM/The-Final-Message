@@ -61,4 +61,9 @@ public class LoadNextLevel : MonoBehaviour
         }
         
     }
+
+    public void GoToMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
 }

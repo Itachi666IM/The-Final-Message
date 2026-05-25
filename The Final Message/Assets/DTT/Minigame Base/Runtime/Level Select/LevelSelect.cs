@@ -129,10 +129,14 @@ namespace DTT.MinigameBase.LevelSelect
                 instance.name = $"Level Button - {data.levelNumber}";
 
                 instance.PressedThis += OnLevelSelected;
-                instance.SetStarsAmount(Mathf.FloorToInt(data.score * 3));
+                instance.SetStarsAmount(Mathf.FloorToInt(data.score * 0));
                 instance.LevelNumber = data.levelNumber;
-                if (data.locked)
+                //if (data.locked)
+                //    instance.SetLocked();
+                if (i != 0)
+                {
                     instance.SetLocked();
+                }
             }
         }
 
