@@ -6014,34 +6014,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1415541488}
-        m_TargetAssemblyTypeName: ResultsUI, DTT.PackageTemplate.Demo
-        m_MethodName: FadeOutUI
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 593333362}
-        m_TargetAssemblyTypeName: DTT.WordConnect.WordConnectManager, DTT.WordConnect.Runtime
-        m_MethodName: ForceStop
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 593333363}
-        m_TargetAssemblyTypeName: DTT.MinigameBase.LevelSelect.LevelSelectHandler`3[[DTT.WordConnect.WordConnectConfigurationData,
-          DTT.WordConnect.Runtime
-        m_MethodName: ShowLevelSelect
+      - m_Target: {fileID: 593333367}
+        m_TargetAssemblyTypeName: LoadNextLevel, Assembly-CSharp
+        m_MethodName: GoToMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8913,7 +8888,7 @@ MonoBehaviour:
   m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 90a0253959980a34fae2b6ca146e1a77, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: -7572572096734341599, guid: 90a0253959980a34fae2b6ca146e1a77, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -32710,34 +32685,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 435641838}
-        m_TargetAssemblyTypeName: ResultsUI, DTT.PackageTemplate.Demo
-        m_MethodName: FadeOutUI
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 593333362}
-        m_TargetAssemblyTypeName: DTT.WordConnect.WordConnectManager, DTT.WordConnect.Runtime
-        m_MethodName: ForceStop
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 593333363}
-        m_TargetAssemblyTypeName: DTT.MinigameBase.LevelSelect.LevelSelectHandler`3[[DTT.WordConnect.WordConnectConfigurationData,
-          DTT.WordConnect.Runtime
-        m_MethodName: ShowLevelSelect
+      - m_Target: {fileID: 593333367}
+        m_TargetAssemblyTypeName: LoadNextLevel, Assembly-CSharp
+        m_MethodName: GoToMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

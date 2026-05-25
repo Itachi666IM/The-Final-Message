@@ -90,7 +90,7 @@ namespace DTT.MinigameBase.LevelSelect
         {
             SetLocked(false);
             
-            _starsParent.gameObject.SetActive(true);
+            _starsParent.gameObject.SetActive(false);
             for (int i = 0; i < _stars.Length; i++)
                 _stars[i].enabled = i < amount;
         }
